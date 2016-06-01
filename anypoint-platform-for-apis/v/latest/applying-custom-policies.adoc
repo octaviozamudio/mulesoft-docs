@@ -4,7 +4,7 @@
 If you want an API policy that isn't included in the default set of policies, you can create your own custom policy. A custom policy requires the following files:
 
 * *Policy Definition* - YAML file that describes the policy and its configurable parameters, as shown in this <<example, Full Example of a Policy Configuration File>>
-* *Policy Configuration* - XML file with the backend processes that implement the policy, as shown in this <<example, Full Example of a Policy Configuration File>>)
+* *Policy Configuration* - XML file with the backend processes that implement the policy, as shown in this <<example, Full Example of a Policy Configuration File>>
 
 You can create a custom policy if you are using one of the following runtimes:
 
@@ -77,7 +77,7 @@ The `configuration` parameter lists a set of properties. Each can contain the fo
 |`propertyName` |string - Property name for internal reference
 |`name` |string - Property name to display in configuration window
 |`description` |string - Property description to display in configuration window
-|`type` |string - Data type: `string`, `boolean`, `int`, `timeunit`, `ipaddress`, `expression` (in MEL)
+|`type` |string - Data type: `string`, `boolean`, `int`, `ipaddress`, `expression` (in MEL)
 |`optional` |boolean - True if assigning a value for it is optional.
 |`sensitive` |boolean - True if the information contained by this field is sensitive (typically used for passwords and tokens). When policy information is requested from the server, these sensitive fields are filtered out.
 |`allowMultiple` |boolean - True if multiple values can be assigned. Only valid if `type` is `ipaddress`.
@@ -100,20 +100,6 @@ configuration:
    type: int
    minimumValue: 5
    maximumValue: 10
-   optional: true
-   sensitive: false
-   allowMultiple: false
-----
-
-==== Timeunit
-
-[source,yaml,linenums]
-----
-configuration:
- - propertyName: atimeunit
-   name: Test Timeunit single
-   description: Some Description
-   type: timeunit
    optional: true
    sensitive: false
    allowMultiple: false
@@ -183,7 +169,7 @@ configuration:
 
 === Policy Configuration
 
-The Policy Configuration is an XML file that implements the actual execution of the policy. The configuration achieves this by leveraging the link:/mule-fundamentals/v/3.7/elements-in-a-mule-flow[elements] available when creating a link:/mule-fundamentals/v/3.7[Mule Runtime] application. All of the elements usable in Mule Runtime can be used in a custom policy.
+The Policy Configuration is an XML file that implements the actual execution of the policy. The configuration achieves this by leveraging the link:/mule-fundamentals/v/3.8/elements-in-a-mule-flow[elements] available when creating a Mule Runtime application. All of the elements usable in Mule Runtime can be used in a custom policy.
 
 The policy configuration defines the actual processes that carry out the implementation of the policy. Structured like a Mule app, you wrap content in the following tags:
 

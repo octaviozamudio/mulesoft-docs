@@ -12,7 +12,7 @@ The ServiceNow connector facilitates connections between Mule integration and S
 
 This document assumes that you are familiar with Mule, link:/mule-user-guide/v/3.8/anypoint-connectors[Anypoint connectors], and the link:/mule-fundamentals/v/3.8/anypoint-studio-essentials[Anypoint Studio interface]. To increase your familiarity with Studio, consider completing one or more link:/mule-fundamentals/v/3.8/basic-studio-tutorial[Anypoint Studio Tutorials]. Further, this page assumes that you have a basic understanding of link:/mule-fundamentals/v/3.8/mule-concepts[Mule flows] and link:/mule-fundamentals/v/3.8/global-elements[Mule Global Elements]. 
 
-This document describes implementation examples within the context of Anypoint Studio, Mule ESB’s graphical user interface, and, also includes configuration details for doing the same in the XML Editor. 
+This document describes implementation examples within the context of Anypoint Studio, Mule’s graphical user interface, and, also includes configuration details for doing the same in the XML Editor. 
 
 If you don't use Anypoint Studio for development, follow the instructions to link:http://mulesoft.github.io/servicenow-connector/4.0.1/mule/servicenow-config.html[install the ServiceNow Maven dependencies] into your `pom.xml` file.
 
@@ -498,7 +498,7 @@ Value
 
 [source, xml, linenums]
 ----
-<mule xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking" xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:servicenow="http://www.mulesoft.org/schema/mule/servicenow" xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.6.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+<mule xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking" xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:servicenow="http://www.mulesoft.org/schema/mule/servicenow" xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:spring="http://www.springframework.org/schema/beans"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/servicenow http://www.mulesoft.org/schema/mule/servicenow/current/mule-servicenow.xsd

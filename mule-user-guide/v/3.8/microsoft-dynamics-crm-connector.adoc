@@ -11,7 +11,7 @@ The Microsoft Dynamics Customer Relationship Management (CRM) connector lets you
 
 MuleSoft maintains this connector under the link:/mule-user-guide/v/3.8/anypoint-connectors#connector-categories[_Select_] support policy.
 
-== Connector Operations
+== Using the Connector
 
 This connector lets you perform the following operations:
 
@@ -23,16 +23,19 @@ This connector lets you perform the following operations:
 Configuring the connector requires minimal parameters except for situations requiring advanced use:
 
 * Username and password for users granted access to CRM
-* Organization Service URL - usually in the format: + _https://mulesoft03.api.crm.dynamics.com/XRMServices/2011/Organization.svc_
+* Organization Service URL - usually in the format: _https://mulesoft03.api.crm.dynamics.com/XRMServices/2011/Organization.svc_
+
+[NOTE]
+See the *technical reference and demos* for these operations link:http://mulesoft.github.io/ms-dynamics-crm-connector/[here].
 
 [[supportedversions]]
 == Supported Microsoft Dynamics CRM Versions
 
 This connector supports these Microsoft Dynamics CRM versions:
 
-* Microsoft Dynamics CRM 2015 (on-premise)
-* Microsoft Dynamics CRM 2013 (on-premise)
-* Microsoft Dynamics CRM 2011 (on-premise)
+* Microsoft Dynamics CRM 2015 (on-prem)
+* Microsoft Dynamics CRM 2013 (on-prem)
+* Microsoft Dynamics CRM 2011 (on-prem)
 * Microsoft Dynamics CRM Online
 
 
@@ -62,8 +65,7 @@ For example: `https://{siteUrl}/XRMServices/2011/Organization.svc`
 +
 . Click *Test Connection* to ensure that the connection works correctly.
 . After the connection succeeds, click *OK*.
-+
-image:microsoft-dynamics-crm-connector-kerberos-connection.png[CRMKerberosConnection] 
+
 
 === Flow to Retrieve by Query from Dynamics CRM
 

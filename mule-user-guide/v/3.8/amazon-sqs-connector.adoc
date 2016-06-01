@@ -16,6 +16,8 @@ The AWS SDK for Java provides a Java API for AWS infrastructure services. The Am
 
 Although it is called a queue, Amazon SQS does not guarantee FIFO access to messages in Amazon SQS queues, mainly because of its distributed nature. If you require specific message ordering, you need to design your application to handle it.
 
+Review the connector operations and functionality using the http://mulesoft.github.io/sqs-connector/[technical reference and demos].
+
 == Prerequisites
 
 This document assumes you are familiar with Mule, link:/mule-user-guide/v/3.8/anypoint-connectors[Anypoint Connectors], and link:/mule-fundamentals/v/3.8/anypoint-studio-essentials[Anypoint Studio Essentials]. To increase your familiarity with Studio, consider completing one or more link:/mule-fundamentals/v/3.8/anypoint-connector-tutorial[Anypoint Studio Tutorials]. Further, this page assumes that you have a basic understanding of link:/mule-fundamentals/v/3.8/elements-in-a-mule-flow[Mule flows] and link:/mule-fundamentals/v/3.8/global-elements[Mule Global Elements].
@@ -357,7 +359,7 @@ For this code to work in Anypoint Studio, you must provide Amazon Web Services c
 <mule xmlns:dw="http://www.mulesoft.org/schema/mule/ee/dw" xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:http="http://www.mulesoft.org/schema/mule/http"
 	xmlns:sqs="http://www.mulesoft.org/schema/mule/sqs" xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking"
 	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
-	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.7.1"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd

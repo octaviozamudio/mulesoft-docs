@@ -437,7 +437,7 @@ http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schem
 <mule xmlns:file="http://www.mulesoft.org/schema/mule/file"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
-	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.7.0"
+	xmlns:spring="http://www.springframework.org/schema/beans"
 	xmlns:sfdc-analytics="http://www.mulesoft.org/schema/mule/sfdc-analytics"
 	xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -484,7 +484,7 @@ image:search_for_batch.jpg[Search for batch]
 image:batch_component.jpg[Batch component on canvas]
 +
 [NOTE]
-When using the *Batch* component, tune it based on the amount of memory that you provide to the Mule ESB server.
+When using the *Batch* component, tune it based on the amount of memory that you provide to the Mule server.
 +
 . Similar to what was done in step 1, search for *File*.
 . Drag *File* into the *Input* section of the batch element created earlier.
@@ -739,7 +739,7 @@ http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schem
 	xmlns:file="http://www.mulesoft.org/schema/mule/file"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
-	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.7.0"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
 	xmlns:sfdc-analytics="http://www.mulesoft.org/schema/mule/sfdc-analytics"
 	xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
