@@ -74,7 +74,8 @@ image:new-saml.png[new saml]
 image:federated-form.png[federated identity form]
 +
 You must provide the following information in the form:
-[width="100%",cols="35a,65a",options="header"]
+
+[cols="20a,80a",options="header"]
 |===
 |Field |Description
 |Issuer |ID of the identity provider instance that sends SAML assertions.
