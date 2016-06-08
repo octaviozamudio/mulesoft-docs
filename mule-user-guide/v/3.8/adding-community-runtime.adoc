@@ -3,6 +3,9 @@
 
 *Anypoint Studio* comes bundled with an embedded Enterprise runtimes with a 30-day Enterprise trial license. You can add Community runtime to your Anypoint Studio instance to build and test applications in Mule's free, open-source runtime environment.
 
+[TIP]
+The steps explained in this document are also valid for downloading and installing earlier versions of the Mule runtime, both of Enterprise and Community Edition.
+
 . In Studio, under the *Help* menu, select *Install New Software.*
 
 . In the *Work With* field of the *Install* wizard, use the drop-down menu to select:
@@ -78,5 +81,3 @@ image:36DClickMuleProjXML.png[36DClickMuleProjXML]
 * link:https://www.mulesoft.com/webinars[MuleSoft Webinars]
 * link:http://blogs.mulesoft.com[MuleSoft Blogs]
 * link:http://forums.mulesoft.com[MuleSoft Forums]
-* link:https://www.mulesoft.com/support-and-services/mule-esb-support-license-subscription[MuleSoft Support]
-* mailto:support@mulesoft.com[Contact MuleSoft]

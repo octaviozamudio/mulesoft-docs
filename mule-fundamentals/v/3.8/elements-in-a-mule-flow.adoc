@@ -3,7 +3,7 @@
 
 Building upon the information presented in link:/mule-fundamentals/v/3.8/mule-concepts[Mule Concepts], this section offers more detailed descriptions of the different types of message sources and message processors, and what they do within a Mule flow.
 
-The following are the categories of building blocks you can use in the Anypoint Studio palette.
+The following are the categories of building blocks you can use. You can access them from the Anypoint Studio palette.
 
 image:palette-categories.png[palette-categories]
 
@@ -35,5 +35,3 @@ The 7th category in the palette is link:/mule-user-guide/v/3.8/error-handling[Er
 * link:https://www.mulesoft.com/webinars[MuleSoft Webinars]
 * link:http://blogs.mulesoft.com[MuleSoft Blogs]
 * link:http://forums.mulesoft.com[MuleSoft Forums]
-* link:https://www.mulesoft.com/support-and-services/mule-esb-support-license-subscription[MuleSoft Support]
-* mailto:support@mulesoft.com[Contact MuleSoft]

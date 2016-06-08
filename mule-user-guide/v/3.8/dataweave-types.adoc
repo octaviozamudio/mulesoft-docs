@@ -203,14 +203,14 @@ Dynamic attributes allow you to add the result of an expression as key:value pai
 %dw 1.0
 %output application/xml
 ---
-tranformation @((payload)): "Transform from anything to anything"
+transformation @((payload)): "Transform from anything to anything"
 ----
 
 .Output
 [source,xml,linenums]
 ----
 <?xml version='1.0' encoding='US-ASCII'?>
-<tranformation company="Mule" product="DataWeave">Transform from anything to anything</tranformation>
+<transformation company="Mule" product="DataWeave">Transform from anything to anything</transformation>
 ----
 
 
@@ -967,6 +967,7 @@ When you <<DataWeave Operators Sorted by Type, provide an operator>> with proper
 * link:/mule-user-guide/v/3.8/dataweave-language-introduction[DataWeave Language Introduction]
 * link:/mule-user-guide/v/3.8/dataweave-operators[DataWeave Operators]
 * link:/mule-user-guide/v/3.8/dataweave-formats[DataWeave Formats]
+* link:/mule-user-guide/v/3.8/dataweave-memory-management[DataWeave Memory Management]
 * link:/mule-user-guide/v/3.8/dataweave-selectors[DataWeave Selectors]
 * link:/mule-user-guide/v/3.8/dataweave-examples[DataWeave Examples]
 * link:/mule-user-guide/v/3.8/mel-dataweave-functions[MEL DataWeave Functions]

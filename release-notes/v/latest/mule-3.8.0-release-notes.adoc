@@ -73,7 +73,7 @@ This release also contains many other improvements:
 * Timezone can now be specified in the <poll> scheduler and Quartz connector
 * Support for specifying query timeout for database connector operations
 * SFTP now validates againsts the known_hosts files
-* Improved DataMapper documentation, quickstart guide, and examples
+* Improved DataWeave documentation, quickstart guide, and examples
 * Enhanced security on startup
 * The runtime now contains a script to generate API Gateway domain
 
@@ -434,5 +434,3 @@ When migrating to the Mule 3.8.0 Enterprise Environment, follow the implicit and
 * link:https://www.mulesoft.com/webinars[MuleSoft Webinars]
 * link:http://blogs.mulesoft.com[MuleSoft Blogs]
 * link:http://forums.mulesoft.com[MuleSoft Forums]
-* link:https://www.mulesoft.com/support-and-services/mule-esb-support-license-subscription[MuleSoft Support]
-* mailto:support@mulesoft.com[Contact MuleSoft]
