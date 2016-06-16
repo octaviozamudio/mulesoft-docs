@@ -1,0 +1,45 @@
+= Roles
+
+== Assumptions
+
+This page assumes that you have an Organization Administrator role in your organization, or that you have API Version Owner permissions and want to manage user permissions for your API version.
+
+== Overview
+
+A _role_ within the Anypoint Platform is a set of pre-defined permissions for each different product within the Platform. +
+Depending on the product, you can find pre-defined roles with their standard permissions, or you can customize your own permissions for each role. +
+For a full list of how each product handles its own roles and permissions, check the link:/access-management/managing-accounts-roles-and-permissions[Account Roles and Permissions] section.
+
+The *Access Management* section grants you a space in which you can create Roles for the products to which you own the appropriate entitlements.
+
+[NOTE]
+--
+The Anypoint Platform has two *roles* that are automatically configured for all organizations. +
+These roles cannot be changed or deleted. They are:
+
+*Organization Administrators*: Members of the Organization Administrator role have editing access to all versions of all APIs, all registered applications, and all API Portals in the Anypoint Platform. They also have access to the Organization Administration page, where they can add and manage users and roles, view and edit organization details, access the client ID and client secret for the organization, and customize the theme of the Developer Portal. Members of the Organization Administrator role also inherit the role of API Creator by default.
+
+*API Creators*: Members of the API Creator role have the ability to add new APIs to the platform on the API administration page.
+
+The user who first signs up for the Anypoint Platform organization is known as the Organization Owner. This is not a role but an identifier for this single user, who inherits the Organization Administrator role by default.
+--
+
+
+== Creating Custom Roles
+
+As an organization administrator, you can create custom roles by combining API resources, permissions, and users.
+
+. Click the *Roles* tab in the left navigation of your Organization Administration page.
+. Click *Add role*.
+. Enter a *Name* and *Description* for your custom role.
+. Your custom role now appears in your list of roles. Click the name of your new role to continue.
+. On the API Permissions tab, click *Add an API resource* and search for the APIs that you want to include in this role. 
+. Select the *Version* and *Permission* that you want to give to this role.
+. Commit your choice by clicking the green checkmark.
+. Click the *Users* tab. 
+. Search for the users that you want to add, one by one, using their name, username, or email address.
+. Commit each user using the green check mark.
+
+To edit your custom role at any time, return to your Roles tab, click the name of the role, and add or delete APIs, permissions, or users as needed.
+
+You can delete custom roles within the Organizer Administrator or API Creator roles, but you cannot delete these roles themselves. To delete a custom role, check the box next to the role name, then click *Delete*.
